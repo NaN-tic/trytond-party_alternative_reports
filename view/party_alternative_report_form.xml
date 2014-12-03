@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- The COPYRIGHT file at the top level of this repository contains the full
+     copyright notices and license terms. -->
+<form string="Alternative Report">
+    <label name="party"/>
+    <field name="party"/>
+    <newline/>
+    <label name="model_name"/>
+    <field name="model_name"/>
+    <label name="report"/>
+    <field name="report"/>
+</form>

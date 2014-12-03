@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tryton>
+    <data>
+        <!-- party.party -->
+        <record model="ir.ui.view" id="party_view_form">
+            <field name="model">party.party</field>
+            <field name="type">form</field>
+            <field name="inherit" ref="party.party_view_form"/>
+            <field name="name">party_form</field>
+        </record>
+
+        <!-- party.alternative_report -->
+        <record model="ir.ui.view" id="party_alternative_report_view_form">
+            <field name="model">party.alternative_report</field>
+            <field name="type">form</field>
+            <field name="name">party_alternative_report_form</field>
+        </record>
+
+        <record model="ir.ui.view" id="party_alternative_report_view_list">
+            <field name="model">party.alternative_report</field>
+            <field name="type">tree</field>
+            <field name="name">party_alternative_report_list</field>
+        </record>
+    </data>
+</tryton>

@@ -1,0 +1,51 @@
+# 
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:party.alternative_report,create_date:"
+msgid "Create Date"
+msgstr "Data creació"
+
+msgctxt "field:party.alternative_report,create_uid:"
+msgid "Create User"
+msgstr "Usuari creació"
+
+msgctxt "field:party.alternative_report,id:"
+msgid "ID"
+msgstr "Identificador"
+
+msgctxt "field:party.alternative_report,model_name:"
+msgid "Model"
+msgstr "Model"
+
+msgctxt "field:party.alternative_report,party:"
+msgid "Party"
+msgstr "Tercer"
+
+msgctxt "field:party.alternative_report,rec_name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:party.alternative_report,report:"
+msgid "Report"
+msgstr "Informe"
+
+msgctxt "field:party.alternative_report,write_date:"
+msgid "Write Date"
+msgstr "Data modificación"
+
+msgctxt "field:party.alternative_report,write_uid:"
+msgid "Write User"
+msgstr "Usuari modificació"
+
+msgctxt "field:party.party,alternative_reports:"
+msgid "Alternative Reports"
+msgstr "Informes alternatius"
+
+msgctxt "model:party.alternative_report,name:"
+msgid "Party Alternative Report"
+msgstr "Informe alternatiu del tercer"
+
+msgctxt "view:party.alternative_report:"
+msgid "Alternative Report"
+msgstr "Informe alternatiu"

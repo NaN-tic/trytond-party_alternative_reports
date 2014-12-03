@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- The COPYRIGHT file at the top level of this repository contains the full
+     copyright notices and license terms. -->
+<data>
+    <xpath expr="/form/notebook" position="inside">
+        <page name="alternative_reports">
+            <field name="alternative_reports" mode="tree,form" colspan="4"
+                view_ids="party_alternative_reports.party_alternative_report_view_list"/>
+        </page>
+    </xpath>
+</data>

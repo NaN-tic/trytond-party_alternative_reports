@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- The COPYRIGHT file at the top level of this repository contains the full
+     copyright notices and license terms. -->
+<tree string="Alternative Report" editable="bottom">
+    <field name="party"/>
+    <field name="model_name"/>
+    <field name="report"/>
+</tree>
