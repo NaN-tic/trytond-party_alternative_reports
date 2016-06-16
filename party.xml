@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0"?>
+<!-- The COPYRIGHT file at the top level of this repository contains the full
+     copyright notices and license terms. -->
 <tryton>
     <data>
         <!-- party.party -->
@@ -15,7 +17,6 @@
             <field name="type">form</field>
             <field name="name">party_alternative_report_form</field>
         </record>
-
         <record model="ir.ui.view" id="party_alternative_report_view_list">
             <field name="model">party.alternative_report</field>
             <field name="type">tree</field>
