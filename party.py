@@ -2,10 +2,9 @@
 # copyright notices and license terms.
 from trytond.model import ModelSQL, ModelView, fields
 from trytond.pyson import Eval
-from trytond.pool import Pool, PoolMeta
+from trytond.pool import PoolMeta
 
 __all__ = ['Party', 'PartyAlternativeReport']
-__metaclass__ = PoolMeta
 
 
 class PartyAlternativeReport(ModelSQL, ModelView):
@@ -22,6 +21,7 @@ class PartyAlternativeReport(ModelSQL, ModelView):
 
 
 class Party:
+    __metaclass__ = PoolMeta
     __name__ = 'party.party'
 
     alternative_reports = fields.One2Many('party.alternative_report', 'party',
