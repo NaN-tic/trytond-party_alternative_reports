@@ -20,8 +20,7 @@ class PartyAlternativeReport(ModelSQL, ModelView):
             ], depends=['model_name'])
 
 
-class Party:
-    __metaclass__ = PoolMeta
+class Party(metaclass=PoolMeta):
     __name__ = 'party.party'
 
     alternative_reports = fields.One2Many('party.alternative_report', 'party',
