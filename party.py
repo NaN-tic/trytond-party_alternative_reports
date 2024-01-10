@@ -17,7 +17,7 @@ class PartyAlternativeReport(ModelSQL, ModelView):
     report = fields.Many2One('ir.action.report', 'Report', required=True,
         ondelete='CASCADE', domain=[
             ('model', '=', Eval('model_name')),
-            ], depends=['model_name'])
+            ])
 
 
 class Party(metaclass=PoolMeta):
